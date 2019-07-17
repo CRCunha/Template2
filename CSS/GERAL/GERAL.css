@@ -1,19 +1,22 @@
 :root {
-    /* VARIAVEL EXEMPLO */
     --flex: flex;
     --center: center;
-    --flex-end: flex-end;
-    --flex-start: flex-start;
-    --space-evenly: space-evenly;
     --space-around: space-around;
     --space-between: space-between;
-    --wrap: wrap;
     --nowrap: nowrap;
-    --text-color: rgb(235, 235, 235);
-    --font: 'DM Sans', sans-serif;
+    --wrap: wrap;
+    --flex-end: flex-end;
+    --flex-start: flex-start;
+    --vermelho: #D10000;
+    --cinza: #383838;
+    --branco: rgb(243, 243, 243);
 }
 
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--branco);
+}
 
-/* QUERY EXEMPLO */
 
 @media only screen and (max-width: 800px) {}
