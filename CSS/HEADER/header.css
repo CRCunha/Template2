@@ -1,0 +1,73 @@
+@media only screen and (max-width: 800px) {
+    header {
+        width: 100%;
+        height: 50vh;
+        z-index: 10;
+    }
+    header .container {
+        width: 100%;
+        height: 75vh;
+    }
+    header .container .header-bc {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../IMG/HEADER/bc.jpg");
+        background-position: center;
+        background-size: cover;
+        filter: blur(1px);
+        margin-bottom: -80vh;
+    }
+    header .container .avatar-container {
+        z-index: 10;
+        width: 100%;
+        height: 45%;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--flex-end);
+    }
+    header .container .avatar-container .avatar {
+        z-index: 1000;
+        width: 110px;
+        height: 110px;
+        background-image: url("../../IMG/HEADER/Qr.png");
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0 3px 6px 3px rgba(0, 0, 0, 0.08);
+    }
+    header .container .infos {
+        z-index: 10;
+        margin-top: 20px;
+        width: 100%;
+        height: 50%;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--center);
+        flex-wrap: var(--wrap);
+        color: var(--text-color);
+        font-family: var(--font);
+    }
+    header .container .infos .name-info {
+        z-index: 10;
+        width: 100%;
+        height: 50px;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--flex-end);
+        margin-top: -50px;
+        font-size: 16pt;
+        text-align: center;
+        font-weight: bold;
+    }
+    header .container .infos .data-info {
+        z-index: 10;
+        width: 100%;
+        height: 50px;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--center);
+        margin-top: -170px;
+        font-size: 14pt;
+        /* background-color: blueviolet; */
+    }
+}

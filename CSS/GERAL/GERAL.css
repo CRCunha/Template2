@@ -1,0 +1,19 @@
+:root {
+    /* VARIAVEL EXEMPLO */
+    --flex: flex;
+    --center: center;
+    --flex-end: flex-end;
+    --flex-start: flex-start;
+    --space-evenly: space-evenly;
+    --space-around: space-around;
+    --space-between: space-between;
+    --wrap: wrap;
+    --nowrap: nowrap;
+    --text-color: rgb(235, 235, 235);
+    --font: 'DM Sans', sans-serif;
+}
+
+
+/* QUERY EXEMPLO */
+
+@media only screen and (max-width: 800px) {}
