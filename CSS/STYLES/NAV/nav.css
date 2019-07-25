@@ -38,6 +38,8 @@ nav .container a {
 
 nav .container a:hover {
     transition: 1s;
+    text-decoration: none;
+    color: #fff;
     background: rgba(44, 44, 44, 1);
     background: -moz-linear-gradient(top, rgba(44, 44, 44, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(102, 102, 102, 1) 0%, rgba(89, 89, 89, 1) 0%, rgba(230, 76, 75, 1) 0%, rgba(230, 76, 75, 1) 0%, rgba(214, 0, 1, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44, 44, 44, 1)), color-stop(0%, rgba(71, 71, 71, 1)), color-stop(0%, rgba(102, 102, 102, 1)), color-stop(0%, rgba(89, 89, 89, 1)), color-stop(0%, rgba(230, 76, 75, 1)), color-stop(0%, rgba(230, 76, 75, 1)), color-stop(100%, rgba(214, 0, 1, 1)));
