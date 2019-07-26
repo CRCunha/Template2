@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="CSS/NORMALIZE/NORMALIZE.css">
     <link rel="stylesheet" href="CSS/STYLES/HEADER/header.css">
     <link rel="stylesheet" href="CSS/STYLES/NAV/nav.css">
+    <link rel="stylesheet" href="CSS/CONTATO/contato.css">
     <link rel="stylesheet" href="CSS/STYLES/FOOTER/footer.css">
     <!--FONTES-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
@@ -55,7 +56,29 @@
             <a href="#" id="ativo">Contato</a>
         </div>
     </nav>
-
+    <div class="title">
+        <div class="container">CONTATO</div>
+    </div>
+    <div class="contato">
+        <div class="container">
+            <div class="infos"></div>
+            <div class="form-container">
+                <form action="" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off">
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+                    <input type="number" name="telefone" id="telefone" placeholder="Telefone" autocomplete="off">
+                    <select list="planos" name="planos" placeholder="Planos" autocomplete="off">
+                        <option value="" disabled selected>Plano</option>
+                        <option value="Starter">Starter</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Plus+">Plus+</option>
+                    </select>
+                    <textarea id="mensagem" name="mensagem" placeholder="Mensagem:" autocomplete="off"></textarea>
+                    <input type="submit" id="enviar" name="enviar" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container">
             <div class="copyright">© 2019 por Eletrônica Phonotape. Orgulhosamente criado por Cristian Web</div>
