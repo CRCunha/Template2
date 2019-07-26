@@ -63,18 +63,19 @@
         <div class="container">
             <div class="infos"></div>
             <div class="form-container">
-                <form action="" method="post">
-                    <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off">
-                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
-                    <input type="number" name="telefone" id="telefone" placeholder="Telefone" autocomplete="off">
-                    <select list="planos" name="planos" placeholder="Planos" autocomplete="off">
+                <form action="https://formspree.io/contato@cristiancunha.me" method="POST">
+                    <input type="text" name="nome" id="Nome" placeholder="Nome" autocomplete="off">
+                    <input type="email" name="email" id="Email" placeholder="Email" autocomplete="off">
+                    <input type="number" name="telefone" id="Telefone" placeholder="Telefone" autocomplete="off">
+                    <select list="planos" name="planos" placeholder="Plano" autocomplete="off">
                         <option value="" disabled selected>Plano</option>
                         <option value="Starter">Starter</option>
                         <option value="Normal">Normal</option>
                         <option value="Plus+">Plus+</option>
                     </select>
-                    <textarea id="mensagem" name="mensagem" placeholder="Mensagem:" autocomplete="off"></textarea>
-                    <input type="submit" id="enviar" name="enviar" value="Enviar">
+                    <textarea id="mensagem" name="Mensagem" placeholder="Mensagem" autocomplete="off"></textarea>
+                    <input type="submit" id="enviar" value="Enviar">
+                    <input type="hidden" name="_next" value="https://crcunha.github.io/Template2/contato.html">
                 </form>
             </div>
         </div>
