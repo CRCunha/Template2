@@ -33,3 +33,18 @@
 #planos-footer {
     margin-top: -70px;
 }
+
+.linha-container {
+    width: 100%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    width: 100%;
+    height: 5px;
+}
+
+.linha-container .linha {
+    width: 85%;
+    border-bottom: dotted 2px #c8c8c8;
+    margin-bottom: 50px;
+}
