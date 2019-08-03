@@ -56,16 +56,22 @@
         width: 100%;
     }
     .planos {
-        height: 1000px;
+        height: 1300px;
         margin-top: 60px;
     }
     .planos .container .title {
         margin-top: -60px;
     }
     #planos-footer {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .linha-container {
         display: none;
+    }
+    #footer-home {
+        margin-top: 350px;
+    }
+    #planos3 {
+        margin-top: -55px;
     }
 }
