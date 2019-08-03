@@ -21,9 +21,15 @@
 .card .card-description {
     width: 100%;
     margin-top: 25px;
+    height: 100px;
     text-align: center;
     color: #727272;
     font-family: var(--font-main);
+    font-size: 10pt;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: var(--wrap);
 }
 
 .card .btn-assinar {

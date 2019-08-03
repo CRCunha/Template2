@@ -48,3 +48,13 @@
     border-bottom: dotted 2px #c8c8c8;
     margin-bottom: 50px;
 }
+
+.planos span {
+    width: 100%;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#linha2 {
+    margin-top: -150px;
+}
