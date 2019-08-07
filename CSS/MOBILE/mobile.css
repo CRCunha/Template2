@@ -43,9 +43,6 @@
         margin-top: 40px;
         height: 1070px;
     }
-    main .container .title {
-        margin-bottom: 50px;
-    }
     footer {
         font-family: var(--font-cardHeader);
     }

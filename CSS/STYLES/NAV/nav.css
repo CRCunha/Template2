@@ -19,7 +19,7 @@ nav .container {
 
 nav .container a {
     transition: 1s;
-    width: 25%;
+    width: 33.33%;
     height: 100%;
     display: var(--flex);
     justify-content: var(--space-around);

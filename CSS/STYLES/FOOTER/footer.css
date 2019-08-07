@@ -44,3 +44,7 @@ footer .container .midias a {
 footer .container .midias a img {
     width: 60%;
 }
+
+#footer-home {
+    margin-top: 140px;
+}
