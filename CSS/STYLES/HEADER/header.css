@@ -66,6 +66,7 @@ header .container .card-header .card-top .card-top-p2 {
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
+    flex-wrap: var(--wrap);
     text-align: center;
     font-size: 26pt;
 }

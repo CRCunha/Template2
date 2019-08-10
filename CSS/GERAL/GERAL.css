@@ -25,4 +25,9 @@ span {
     font-size: 18pt;
 }
 
+#card-ligue {
+    font-size: 18pt;
+    font-weight: normal;
+}
+
 @media only screen and (max-width: 800px) {}
