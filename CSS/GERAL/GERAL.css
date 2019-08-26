@@ -17,6 +17,7 @@
 
 body {
     background-color: var(--bc-color);
+    font-family: var(--font-main);
 }
 
 span {
